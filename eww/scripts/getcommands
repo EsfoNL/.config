@@ -1,0 +1,2 @@
+#!/bin/sh
+compgen -c | rg $1 | sed -e 's/.*/"&"/' | tr '\n' ',' | head -c -1
