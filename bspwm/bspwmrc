@@ -21,5 +21,6 @@ bspc rule -a Screenkey manage=off
 bspc rule -a '*:*:Picture-in-Picture' state=floating
 
 wmname LG3D
-picom -b
-feh --bg-fill '/home/ersa/Pictures/wallpapers/Arch Linux Yellow Dark Wallpaper 2.svg'
+pipewire &
+clipmenud &
+feh --bg-fill /home/ersa/.config/bspwm/bg.webp
